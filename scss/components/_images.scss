@@ -1,0 +1,22 @@
+/* ======================================
+    Image Styles
+   ====================================== */
+.img--logo {
+  @extend %img;
+  @include center;
+  width: 50%;
+  @include mq("sm") {
+    width: 80%;
+  }
+}
+
+.img--frame {
+  @extend %img;
+  border: 1px solid #ccc;
+  @include center;
+}
+
+.img--avatar {
+  @extend %img;
+  @include center;
+}
