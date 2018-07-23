@@ -49,34 +49,13 @@
   margin-left: auto;
   margin-right: auto;
 }
-@mixin grid-examples($map) {
-  @each $col, $color in $map {
-    &-#{$col} {
-      background-color: $color;
-      // @include grid-examples;
-      border-radius: 5px;
-      font-size: 1.2em;
-      font-weight: bold;
-      padding: 1em;
-      margin-bottom: 1em;
-    }
-  }
-}
-// @mixin grid-examples {
-//   border-radius: 5px;
-//   font-size: 1.2em;
-//   font-weight: bold;
-//   padding: 1em;
-//   margin-bottom: 1em;
-// }
 
-// Buttons
+// == Buttons ==
 @mixin button($map) {
   @each $btn-type, $color in $map {
     &-#{$btn-type} {
       background-color: $color;
       border: 0;
-      // border: 1px solid #fff;
       border-radius: 5px;
       color: #fff;
       cursor: pointer;
@@ -85,9 +64,8 @@
       text-align: center;
       text-transform: uppercase;
       margin: 0.5em;
-      // margin-left: 1em;
-      // margin-right: 1em;
       width: 100%;
+
       &:hover,
       &:focus {
         opacity: 0.8;
@@ -99,9 +77,18 @@
       }
     }
   }
-  // @each $btn-type, $color in $map {
-  //   &-#{$btn-type}:nth-child(n + 2) {
-  //     @include
-  //   }
-  // }
+}
+
+// == Grid Examples ==
+@mixin grid-examples($map) {
+  @each $col, $color in $map {
+    &-#{$col} {
+      background-color: $color;
+      border-radius: 5px;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 1em;
+      margin-bottom: 1em;
+    }
+  }
 }
