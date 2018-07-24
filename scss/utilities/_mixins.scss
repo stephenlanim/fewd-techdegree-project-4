@@ -68,7 +68,7 @@
 
       &:hover,
       &:focus {
-        opacity: 0.8;
+        background-color: darken($color, 15);
       }
 
       @include mq("sm") {
