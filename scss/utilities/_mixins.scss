@@ -28,6 +28,18 @@
     }
   }
 
+} // End of mq mixin
+
+// === Transition ===
+@mixin transition (
+  // Variables
+  $prop:all,
+  $dur: 0.25s,
+  $tim: ease-in) {
+    // Properties
+  transition-property: $prop;
+  transition-duration: $dur;
+  transition-timing-function: $tim;
 }
 
 // === Flexbox ===
@@ -65,6 +77,7 @@
       text-transform: uppercase;
       margin: 0.5em;
       width: 100%;
+      @include transition($dur:0.15s);
 
       &:hover,
       &:focus {

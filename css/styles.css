@@ -545,21 +545,23 @@ p {
       display: flex;
       flex-direction: row; } }
 
-@media (min-width: 600px) {
-  .nav__item {
-    padding: 0.5em;
-    margin-left: 0.5em; } }
-
-.nav__item a {
-  color: #555;
-  display: block;
-  font-weight: 200;
-  text-decoration: none; }
-
-.nav__item:active a,
-.nav__item:focus a,
-.nav__item:hover a {
-  color: #fff; }
+.nav__item {
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in; }
+  @media (min-width: 600px) {
+    .nav__item {
+      padding: 0.5em;
+      margin-left: 0.5em; } }
+  .nav__item a {
+    color: #555;
+    display: block;
+    font-weight: 200;
+    text-decoration: none; }
+  .nav__item:active a,
+  .nav__item:focus a,
+  .nav__item:hover a {
+    color: #fff; }
 
 /* ======================================
     Typography Styles
@@ -633,7 +635,10 @@ p {
   text-align: center;
   text-transform: uppercase;
   margin: 0.5em;
-  width: 100%; }
+  width: 100%;
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in; }
   .theme__colors.btn--default:hover, .theme__colors.btn--default:focus {
     background-color: #06cefb; }
   @media (min-width: 600px) {
@@ -652,7 +657,10 @@ p {
   text-align: center;
   text-transform: uppercase;
   margin: 0.5em;
-  width: 100%; }
+  width: 100%;
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in; }
   .theme__colors.btn--success:hover, .theme__colors.btn--success:focus {
     background-color: #38ab5a; }
   @media (min-width: 600px) {
@@ -671,7 +679,10 @@ p {
   text-align: center;
   text-transform: uppercase;
   margin: 0.5em;
-  width: 100%; }
+  width: 100%;
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in; }
   .theme__colors.btn--error:hover, .theme__colors.btn--error:focus {
     background-color: #d7353c; }
   @media (min-width: 600px) {
@@ -690,7 +701,10 @@ p {
   text-align: center;
   text-transform: uppercase;
   margin: 0.5em;
-  width: 100%; }
+  width: 100%;
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in; }
   .theme__colors.btn--warning:hover, .theme__colors.btn--warning:focus {
     background-color: #fc3c0a; }
   @media (min-width: 600px) {
@@ -709,7 +723,10 @@ p {
   text-align: center;
   text-transform: uppercase;
   margin: 0.5em;
-  width: 100%; }
+  width: 100%;
+  transition-property: all;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in; }
   .theme__colors.btn--info:hover, .theme__colors.btn--info:focus {
     background-color: #694da3; }
   @media (min-width: 600px) {
