@@ -21,8 +21,4 @@
   @extend %img;
   @include center;
   max-width: 100%;
-  .form & {
-    // padding: 0;
-    // object-fit: scale-down;
-  }
 }
