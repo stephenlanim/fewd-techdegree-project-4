@@ -2,7 +2,6 @@
     Forms Styles
    ====================================== */
 .form {
-  @include flexbox($dir:column);
   @include center;
   width: 80%;
   @include mq("sm") {
@@ -14,6 +13,7 @@
   &__input {
     border: 0;
     border-bottom: 3px solid $color-primary;
+    display: block;
     margin-bottom: 1em;
     padding: 1em;
     width: 90%;

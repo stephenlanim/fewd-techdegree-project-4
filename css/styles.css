@@ -362,115 +362,115 @@ p {
   margin-left: auto;
   margin-right: auto; }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__row {
     display: flex; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--1 {
     display: flex;
     width: 8.3333333333%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--1:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--2 {
     display: flex;
     width: 16.6666666667%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--2:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--3 {
     display: flex;
     width: 25%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--3:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--4 {
     display: flex;
     width: 33.3333333333%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--4:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--5 {
     display: flex;
     width: 41.6666666667%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--5:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--6 {
     display: flex;
     width: 50%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--6:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--7 {
     display: flex;
     width: 58.3333333333%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--7:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--8 {
     display: flex;
     width: 66.6666666667%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--8:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--9 {
     display: flex;
     width: 75%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--9:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--10 {
     display: flex;
     width: 83.3333333333%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--10:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--11 {
     display: flex;
     width: 91.6666666667%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--11:nth-child(n + 2) {
     margin-left: 1em; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--12 {
     display: flex;
     width: 100%; } }
 
-@media (min-width: 600px) {
+@media (min-width: 769px) {
   .grid__col--12:nth-child(n + 2) {
     margin-left: 1em; } }
 
@@ -540,7 +540,7 @@ p {
 .nav {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .nav {
       display: flex;
       flex-direction: row; } }
@@ -549,7 +549,7 @@ p {
   transition-property: all;
   transition-duration: 0.1s;
   transition-timing-function: ease-in; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .nav__item {
       padding: 0.5em;
       margin-left: 0.5em; } }
@@ -578,12 +578,10 @@ p {
     Forms Styles
    ====================================== */
 .form {
-  display: flex;
-  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   width: 80%; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .form {
       margin-left: auto; } }
   .form__label--hidden {
@@ -591,6 +589,7 @@ p {
   .form__input {
     border: 0;
     border-bottom: 3px solid #58e1c1;
+    display: block;
     margin-bottom: 1em;
     padding: 1em;
     width: 90%;
@@ -608,18 +607,20 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .img--logo {
       width: 80%; } }
 
 .img--frame {
   border: 1px solid #ccc;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  max-width: 100%; }
 
 .img--avatar {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  max-width: 100%; }
 
 /* ======================================
     Buttons Styles
@@ -641,7 +642,7 @@ p {
   transition-timing-function: ease-in; }
   .theme__colors.btn--default:hover, .theme__colors.btn--default:focus {
     background-color: #06cefb; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .theme__colors.btn--default {
       margin: 1em;
       width: 20%; } }
@@ -663,7 +664,7 @@ p {
   transition-timing-function: ease-in; }
   .theme__colors.btn--success:hover, .theme__colors.btn--success:focus {
     background-color: #38ab5a; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .theme__colors.btn--success {
       margin: 1em;
       width: 20%; } }
@@ -685,7 +686,7 @@ p {
   transition-timing-function: ease-in; }
   .theme__colors.btn--error:hover, .theme__colors.btn--error:focus {
     background-color: #d7353c; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .theme__colors.btn--error {
       margin: 1em;
       width: 20%; } }
@@ -707,7 +708,7 @@ p {
   transition-timing-function: ease-in; }
   .theme__colors.btn--warning:hover, .theme__colors.btn--warning:focus {
     background-color: #fc3c0a; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .theme__colors.btn--warning {
       margin: 1em;
       width: 20%; } }
@@ -729,7 +730,7 @@ p {
   transition-timing-function: ease-in; }
   .theme__colors.btn--info:hover, .theme__colors.btn--info:focus {
     background-color: #694da3; }
-  @media (min-width: 600px) {
+  @media (min-width: 769px) {
     .theme__colors.btn--info {
       margin: 1em;
       width: 20%; } }

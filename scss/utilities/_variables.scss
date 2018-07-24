@@ -7,8 +7,8 @@ $font-stack: "Helvetica Neue", sans-serif;
 
 // Breakpoints (Sass map)
 $breakpoints: (
-  "xs": 599px, // smartphone width
-  "sm": 600px, // tablet portrait
+  "xs": 768px, // smartphone width (normally 599px)
+  "sm": 769px, // tablet portrait (normally 600px)
   "med": 900px, // tablet landscape
   "lg": 1200px, // desktop
 );
