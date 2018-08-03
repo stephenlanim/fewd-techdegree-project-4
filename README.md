@@ -9,4 +9,4 @@ The media query breakpoints used in this project follow the recommendations in t
 - HTML validated via the W3C Markup Validation Service.
 - CSS validated via the W3C CSS Validation Service.
 
-Live page: https://stephenlanim.github.io/fewd-techdegree-project-4
+Live page: https://stephenlanim.github.io/fewd-techdegree-project-4/
